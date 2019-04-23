@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(http://db.onlinewebfonts.com/c/b99859c16e467f2ab0a89c9ee063ebed?family=New+Super+Mario+Font+U);
+
+body{
+  background: url("assets/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+canvas{
+	background: url("assets/bg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	border: 2px solid black;
+	display: block;
+	margin: auto;
+}
+
+h1{
+	font-family: "New Super Mario Font U";
+	text-align: center;
+	font-size: 60px;
+}
+
+h2{
+	text-align: center;
+	font-family: Abel;
+	font-size: 30px;
+}
+
+li{
+	font-family: Abel;
+	font-size: 30px;
+}
+
+#instructions{
+	background-color: #DBFCFF;
+	opacity: 0.8;
+	width: 500px;
+	border: 2px solid black;
+	padding: 0px 20px 20px 20px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 50px;
+}
